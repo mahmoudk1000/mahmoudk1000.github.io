@@ -1,0 +1,134 @@
+baseURL = "https://mahmoudk1000.github.io"
+title = "Mahmoud — Blog"
+languageCode = "en-us"
+theme = "PaperMod"
+
+pygmentsUseClasses = true
+enableRobotsTXT = true
+
+[params]
+env = "production"
+title = "Mahmoud — Blog"
+description = "mahmoudk1000's blog"
+keywords = [
+    "Blog",
+    "Portfolio",
+    "mahmoudk1000",
+    "Mahmoud Ayman",
+    "Mahmoud Asran",
+    "Mahmooudk1000",
+    "mahmoud1000",
+    "mahmoudk10000",
+    "Mahmoud A. Asran",
+]
+author = "mahmoudk1000"
+images = [ "https://avatars.githubusercontent.com/u/24735185?v=4" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+ShowFullTextinRSS = true
+
+[params.label]
+text = "mahmoudk1000"
+icon = "https://avatars.githubusercontent.com/u/24735185?v=4"
+iconHeight = 30
+
+[params.profileMode]
+enabled = false
+title = "Mahmoud — Blog"
+subtitle = "mahmoudk1000's personal blog"
+languageCode = "en-us"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my image"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+[params.homeInfoParams]
+Title = "Mahmoud A. Asran"
+Content = "Egyptian, Student, *nix based Systems and android user; loves free open source softwares."
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:mahmoudk1000@gmail.com"
+
+[[params.socialIcons]]
+name = "telegram"
+url = "https://t.me/mahmoudk1000"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/mahmoudk1000"
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://fosstodon.org/@mahmoudk1000"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/mahmoudk1000"
+
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "aboutme"
+name = "About Me"
+url = "/aboutme/"
+weight = 40
+
+
+[markup.highlight]
+noClasses = false
