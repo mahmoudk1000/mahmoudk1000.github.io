@@ -1,0 +1,32 @@
+commit 89ef5f0e9c71f153b40d64d2507a160931f49db5
+Author: Mahmoud Ayman <mahmoudk1000@gmail.com>
+Date:   Thu Jun 27 14:44:00 2024 +0300
+
+    theme: new color scheme
+
+diff --git a/assets/css/core/theme-vars.css b/assets/css/core/theme-vars.css
+index db1845d..2a602cb 100644
+--- a/assets/css/core/theme-vars.css
++++ b/assets/css/core/theme-vars.css
+@@ -18,15 +18,15 @@
+ }
+ 
+ .dark {
+-    --theme: rgb(29, 30, 32);
+-    --entry: rgb(46, 46, 51);
++    --theme: rgb(18, 18, 18);
++    --entry: rgb(33, 33, 33);
+     --primary: rgb(218, 218, 219);
+     --secondary: rgb(155, 156, 157);
+-    --tertiary: rgb(65, 66, 68);
++    --tertiary: rgb(33, 33, 33);
+     --content: rgb(196, 196, 197);
+-    --code-block-bg: rgb(46, 46, 51);
+-    --code-bg: rgb(55, 56, 62);
+-    --border: rgb(51, 51, 51);
++    --code-block-bg: rgb(33, 33, 33);
++    --code-bg: rgb(18, 18, 18);
++    --border: rgb(33, 33, 33);
+ }
+ 
+ .list {
