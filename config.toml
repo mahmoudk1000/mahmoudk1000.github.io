@@ -1,13 +1,15 @@
 baseURL = "https://mahmoudk1000.github.io"
 title = "Mahmoud — Blog"
 languageCode = "en-us"
-theme = "PaperMod"
+theme = "PaperModX"
 
 pygmentsUseClasses = true
 enableRobotsTXT = true
+enableEmoji = true
 
 [params]
 env = "production"
+author = "mahmoudk1000"
 title = "Mahmoud — Blog"
 description = "mahmoudk1000's blog"
 keywords = [
@@ -21,11 +23,15 @@ keywords = [
     "mahmoudk10000",
     "Mahmoud A. Asran",
 ]
-author = "mahmoudk1000"
 images = [ "https://avatars.githubusercontent.com/u/24735185?v=4" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 
+# PaperModX
+TocSide = "right"
+EnableInstantClick = true
+
+# PaperMod
 disableThemeToggle = false
 ShowReadingTime = true
 ShowShareButtons = false
@@ -67,27 +73,27 @@ name = "Tags"
 url = "tags"
 
 [params.homeInfoParams]
-Title = "Mahmoud A. Asran"
-Content = "Egyptian, Student, *nix based Systems and android user; loves free open source softwares."
+Title = "Mahmoud Ayman"
+Content = "Egyptian, Aspiring DevOps, *nix based Systems and android user; Free Open Source Software enthusiastic."
 
 [[params.socialIcons]]
-name = "email"
+name = "email-simple"
 url = "mailto:mahmoudk1000@gmail.com"
 
 [[params.socialIcons]]
-name = "telegram"
+name = "telegram-simple"
 url = "https://t.me/mahmoudk1000"
 
 [[params.socialIcons]]
-name = "github"
+name = "github-simple"
 url = "https://github.com/mahmoudk1000"
 
 [[params.socialIcons]]
-name = "mastodon"
+name = "mastodon-simple"
 url = "https://fosstodon.org/@mahmoudk1000"
 
 [[params.socialIcons]]
-name = "linkedin"
+name = "linkedin-simple"
 url = "https://www.linkedin.com/in/mahmoudk1000"
 
 

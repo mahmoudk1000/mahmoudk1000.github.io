@@ -19,8 +19,8 @@ jobs:
           submodules: true
       - name: Apply patch to submodule
         run: |
-          cd themes/PaperMod
-          git apply ../../patchs/theme.diff
+          cd themes/PaperModX
+          git apply ../../patchs/themeX.diff
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
         with:
