@@ -77,23 +77,23 @@ Title = "Mahmoud Ayman"
 Content = "Egyptian, Aspiring DevOps, *nix based Systems and android user; Free Open Source Software enthusiastic."
 
 [[params.socialIcons]]
-name = "email-simple"
+name = "email"
 url = "mailto:mahmoudk1000@gmail.com"
 
 [[params.socialIcons]]
-name = "telegram-simple"
+name = "telegram"
 url = "https://t.me/mahmoudk1000"
 
 [[params.socialIcons]]
-name = "github-simple"
+name = "github"
 url = "https://github.com/mahmoudk1000"
 
 [[params.socialIcons]]
-name = "mastodon-simple"
+name = "mastodon"
 url = "https://fosstodon.org/@mahmoudk1000"
 
 [[params.socialIcons]]
-name = "linkedin-simple"
+name = "linkedin"
 url = "https://www.linkedin.com/in/mahmoudk1000"
 
 
