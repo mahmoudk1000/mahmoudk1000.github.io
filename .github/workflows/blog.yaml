@@ -30,14 +30,13 @@ jobs:
         run: |
           hugo \
             --gc --enableGitInfo
-      - name: List root directory
-        run: ls -l
+      - name: Move charts into public
+        run: |
+          mv ./charts ./public/charts
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: | 
-            ./public
-            ./charts
+          path: ./public
   deploy:
     runs-on: ubuntu-latest
     needs: build
