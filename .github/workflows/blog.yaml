@@ -30,6 +30,8 @@ jobs:
         run: |
           hugo \
             --gc --enableGitInfo
+      - name: List root directory
+        run: ls -l
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
         with:
