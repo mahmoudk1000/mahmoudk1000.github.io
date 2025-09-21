@@ -3,12 +3,12 @@ entries:
   azdo-runner-operator:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-08-28T09:23:34.620058523Z"
+    created: "2025-09-21T09:54:16.206928471Z"
     description: A Helm chart for dn-demand agent azure devops runner operator
-    digest: 26c9ce33b7cca36a522f0ca8f5e60798f30073aeec4dcda98541d9b11fbd0424
+    digest: 0e8ec2ee55324a1db937580e75785745ae1652bb2a5c39334881043d6f2e004c
     name: azdo-runner-operator
     type: application
     urls:
     - https://mahmoudk1000.github.io/charts/azdo-runner-operator-0.1.1.tgz
     version: 0.1.1
-generated: "2025-08-28T09:23:34.619571838Z"
+generated: "2025-09-21T09:54:16.206513043Z"
